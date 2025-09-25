@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program Survei Perokok</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <form action="" id="survei-form">
+      <div class="header-line"></div>
+
+      <!-- Kontainer form -->
+      <div class="container1">
+        <h1>Form Survei Perokok</h1>
+      </div>
+
+      <div class="container kesatu">
+        <label for="showData"><p>Lihat data survei perokok!</p></label>
+        <button class="btn-kesatu">
+          <a href="dataTabel.html">Show data</a>
+        </button>
+      </div>
+
+      <div class="container">
+        <p>Siapa nama anda?</p>
+        <div class="input-wrapper">
+          <input type="text" id="nama" name="nama" required />
+          <span class="underline"></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Berapa umur anda?</p>
+        <div class="input-wrapper">
+          <input type="text" id="umur" name="umur" required />
+          <span class="underline"></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Apa jenis kelamin anda?</p>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="jenisKelamin" value="Laki-laki" />
+            Laki-laki
+          </label>
+          <label>
+            <input type="radio" name="jenisKelamin" value="Perempuan" />
+            Perempuan
+          </label>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Apakah anda perokok?</p>
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="perokok" value="ya" />
+            Ya
+          </label>
+          <label>
+            <input type="radio" name="perokok" value="tidak" />
+            Tidak
+          </label>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Jika anda perokok, rokok apa yang pernah anda coba?</p>
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" name="perokok" value="gudang-garam-filter" />
+            Gudang Garam Filter
+          </label>
+          <label>
+            <input type="checkbox" name="perokok" value="lucky-strike" />
+            Lucky Strike
+          </label>
+          <label>
+            <input type="checkbox" name="perokok" value="marlboro" />
+            Marlboro
+          </label>
+          <label>
+            <input type="checkbox" name="perokok" value="esse" />
+            Esse
+          </label>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Form</button>
+      </div>
+    </form>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

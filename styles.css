@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0ebf8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+form {
+  margin: 0;
+}
+
+.header-line {
+  background-color: blueviolet;
+  height: 10px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.container1 {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.kesatu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-kesatu {
+  height: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.input-wrapper {
+  position: relative;
+  margin-top: 10px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 10px 5px 5px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.checkbox label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 5px;
+}
+
+.button-container {
+  max-width: 640px;
+  margin: 20px auto 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button[type="submit"] {
+  background-color: #6200ee;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="reset"] {
+  background-color: transparent;
+  color: #6200ee;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin-left: 0; /* hapus margin kiri */
+}
+
+/* halaman data tabel */
+.containerku {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #6200ee;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.back-button {
+  margin-top: 20px;
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+}
+
+.back-button:hover {
+  background-color: #4b00cc;
+}
+
+/* Responsive: Center button */
+.back-button-container {
+  text-align: center;
+}
+
+.no-data {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
